@@ -1,0 +1,60 @@
+.modal-price-brand-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.2em;
+    right: 1em;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.close-modal:hover {
+    transform: rotate(90deg);
+}
+
+.modal-cart-quantity {
+    margin-top: 2em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.modal-cart-quantity span {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.modal-cart-quantity .item-quantity-icon {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.btn-go-to-cart {
+    margin-top: 1em;
+    padding: .5em 1em;
+    border-radius: 100px;
+    font-size: 1em;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn-go-to-cart a {
+    color: #fff;
+}
+
+.add-to-cart path {
+    stroke: #fff;
+}

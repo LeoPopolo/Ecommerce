@@ -1,0 +1,65 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.wrapper .message {
+	height: 100vh;
+    box-shadow: 0 0 15px 0 #dddddd80;
+}
+
+.wrapper .message h2 {
+	font-size: 3em;
+	color: var(--primary-color);
+	margin: 20px;
+}
+
+.wrapper .message .logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper .message .logo h3 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 3em;
+	color: var(--primary-color);
+	text-align: center;
+}
+
+.wrapper .form-wrapper {
+	background-color: #efefef80;
+	height: 100vh;
+}
+
+.wrapper .form-wrapper header:first-child {
+	float: right;
+	margin: 1em;
+}
+
+.wrapper .form-wrapper .form {
+	margin: 25% auto;
+	border-radius: 15px;
+	padding: 1em;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	gap: 10px;
+    box-shadow: 0 0 15px 0 #dddddd80;
+}
+
+.wrapper .form-wrapper .register-form {
+	margin-top: 15%;
+}
+
+.wrapper .form-wrapper .form input {
+	width: 70%;
+}
+
+.wrapper .form-wrapper .form h3 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5em;
+	color: var(--primary-color);
+}

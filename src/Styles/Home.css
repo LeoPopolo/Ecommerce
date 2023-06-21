@@ -1,0 +1,19 @@
+.home-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 8%;
+}
+
+.container {
+    padding: 3% 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
+
+.input-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}

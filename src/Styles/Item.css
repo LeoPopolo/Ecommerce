@@ -1,0 +1,37 @@
+.item-name {
+    font-size: .9em;
+}
+
+.item-price {
+    color: var(--primary-color);
+}
+
+.item-quantity-icon {
+    user-select: none;
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.item-delete-icon {
+    fill: var(--primary-color);
+    cursor: pointer;
+    transition: transform 150ms;
+}
+
+.item-delete-icon:hover {
+    transform: scale(1.2);
+}
+
+.item-quantity-icon path {
+    stroke: var(--secondary-color);
+    fill: var(--secondary-color);
+}
+
+.item-total-price {
+    padding: 2px 8px;
+    font-size: .9em;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+}

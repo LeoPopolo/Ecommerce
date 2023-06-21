@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	color: #353535;
+}
+
+*::-webkit-scrollbar {
+	width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: var(--primary-color);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: var(--dark-primary-color);
+}
+
+:root {
+	--primary-color: #a071cc;
+	--dark-primary-color: #945dc7;
+	--light-primary-color: #f4effccc;
+	--secondary-color: #d69a4c;
+}
+
+p,
+h2,
+h3,
+h4,
+span,
+a {
+	color: #353535;
+}
+
+.MuiSnackbarContent-message {
+	color: #fff;
+}
+
+.ec-input-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.ec-input-icon {
+	position: absolute;
+	left: 1em;
+}
+
+.ec-input,
+.ec-icon-input {
+	padding: .5em 1em .5em 2.5em;
+	border-radius: 100px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #353535;
+	font-size: 1em;
+}
+
+.ec-input {
+	padding: .5em 1em .5em 1em;
+}
+
+.ec-input:focus {
+	border: 1px solid var(--primary-color);
+}
+
+.ec-row-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 5px;
+}
+
+.ec-row-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5px;
+}
+
+.ec-row-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+}
+
+.ec-row-4 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 5px;
+}
